@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/CSS/reset.css" />
+    <link rel="stylesheet" type="text/css" href="/CSS/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="/CSS/style.css" />
+    <link rel="icon" href="/IMG/Vector.svg" style="width: 20%" />
+    <script
+      src="https://kit.fontawesome.com/3700e491a8.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Encriptador</title>
+  </head>
+  <body>
+    <div id="flex-content">
+      <header id="header">
+        <img id="logo" class="logos" src="/IMG/Vector.svg" alt="LOGO" />
+      </header>
+      <section id="section-textarea">
+        <div id="div-textarea">
+          <textarea
+            id="text"
+            class="entradaTexto"
+            placeholder="Ingrese el texto aqui"
+          ></textarea>
+        </div>
+      </section>
+      <div id="vector-span">
+        <!-- <img id="vector" src="/IMG/Vector.png" alt="" /> -->
+        <span id="span"><i class="fa-solid fa-circle-exclamation"></i> Solo letras minusculas</span>
+      </div>
+      <section id="section-button">
+        <div id="div-button">
+          <a id="a-encriptar" href="#copiar">
+            <button class="encriptador" id="encriptar">
+              <span>ENCRIPTAR</span>
+            </button>
+          </a>
+          <a id="a-encriptar" href="#copiar">
+            <button id="desencriptar">
+              <span>DESENCRIPTAR</span>
+            </button>
+          </a>
+        </div>
+      </section>
+      <aside id="aside" class="aside">
+        <div id="aside-div">
+          <button id="theme"><i class="fa-solid fa-sun"></i></button>
+          <div id="div-textarea2">
+            <textarea readonly id="textarea" cols="30" rows="10"></textarea>
+          </div>
+          <img id="muñeco" src="/IMG/Muñeco.png" alt="" />
+          <h1 id="h1"><b>Ningún mensaje fue encontrado</b></h1>
+          <p id="p">Ingresa el texto que desees encriptar o desencriptar.</p>
+          <button id="copiar">copiar</button>
+        </div>
+        <ul id="ul-redes">
+          <li><a href="https://github.com/RicardoLopezProgramacion" target="_blank" id="link" class="link"><i class="fa-brands fa-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/ricardo-lopez-8b0753252/" target="_blank" id="link" class="link"><i class="fa-brands fa-linkedin"></i></a></li>
+          <li><a href="https://www.instagram.com/ricardolopezprogramacion/" target="_blank" id="link" class="link"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+      </aside>
+    </div>
+    <script src="/JS/index.js"></script>
+  </body>
+</html>
