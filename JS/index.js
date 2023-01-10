@@ -26,12 +26,6 @@ let guardar;
 //y = none
 //a = flex
 //b = center
-// -290px
-
-// link_a.addEventListener("click", ()=> {
-//   link[0].href = "https://www.linkedin.com/in/ricardo-lopez-8b0753252/";
-// })
-
 
 function flex(a) {
   div_textarea2.style.display = a;
@@ -115,12 +109,12 @@ buttonTheme.addEventListener("click", () => {
     case false:
       theme = true;
       buttonTheme.innerHTML = `<i class="fa-solid fa-moon"></i>`;
-      estilos("#fff","1px #fff solid","#333","/IMG/Vector2.svg");
+      estilos("#fff","1px #fff solid","#333","IMG/Vector2.svg");
       break;
     case true:
       theme = false;
       buttonTheme.innerHTML = `<i class="fa-solid fa-sun"></i>`;
-      estilos("#0a3871","1px #072861 solid","#f3f5fc","/IMG/Vector.svg");
+      estilos("#0a3871","1px #072861 solid","#f3f5fc","IMG/Vector.svg");
       break;
   }
 });
